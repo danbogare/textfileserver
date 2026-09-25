@@ -16,6 +16,7 @@ app.use((req: Request, res: Response) => {
     res.status(404).json({message: 'NOT FOUND'});
 });
 
+// port number
 const port: number = Number(process.env.PORT);
 
 connectDB();
