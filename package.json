@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
+    "config-set": "bash heroku.sh .env",
     "build": "tsc"
   },
   "keywords": [],
